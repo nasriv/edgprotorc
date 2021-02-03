@@ -25,7 +25,7 @@ rhino3dm().then(async m => {
     rhino = m; // global
 
     //RhinoCompute.url = "http://localhost:8081/";
-    RhinoCompute.url = "https://40.88.39.64/";
+    RhinoCompute.url = "http://40.88.39.64/";
     RhinoCompute.apiKey = "theRhinoKey465@"; // your Rhino.Compute server api key, use empty for localhost
 
     // load a grasshopper file!
